@@ -13,14 +13,10 @@ namespace Selenium
     {
         IWebDriver driver = new ChromeDriver();
 
-        static void Main(string[] args)
-        {
-        }
-
         [SetUp]
         public void Initialize()
         {
-            driver.Navigate().GoToUrl("http://www.gooogle.com");
+            //driver.Navigate().GoToUrl("http://www.gooogle.com");
         }
 
         [Test]
